@@ -1,0 +1,133 @@
+/*styling our navigation bar items*/
+nav.navbar{
+    padding-top: 15px;
+    margin-left: 300px;
+    text-align: center;
+    color: rgb(83, 218, 218);
+    display: flex;
+    font-family:sans-serif;
+    flex-direction: row;
+    font-weight: bold;
+    list-style: none; 
+    gap: 40px;   
+    box-sizing:content-box;
+    content:orange;
+  }
+  /*body styling*/
+body{
+    background-color:black;
+   
+    padding-top: 10px;
+}
+/*styling our image in class topimage*/
+.topimage{
+    width: 1850px;
+    position: absolute;
+  left: 0px;
+ padding-top: 10px;
+ justify-self: start;
+}
+ .manassespic{
+    display: flex; 
+    margin-left: 880px;
+    margin-top: -600px; */
+}
+/*use of class and id together in our selector*/
+.manassespic #motto{
+    color:white;
+    text-align: center;
+    margin-left:50px;
+    font-size: xx-large;
+    
+}
+/*Overriding the motto color from white to orange*/
+#motto .orangetext{
+    color:orange;
+ 
+}
+body.myinfo{ 
+    padding-left: 100px;  
+    padding-top: 0%;
+    background-color: white;  
+}
+.laptopimage{
+    padding-top: 250px;
+  /* left: -150px;
+ justify-self: start; */ 
+}
+
+.topimage img{
+    width: 100%; /* Stretch the image width to fill the container */
+    height: 200px;
+    overflow: hidden;
+      
+}
+.myinfo {
+    position: absolute;   
+    transform: translate(-105%, -75%); /* Centers the text along x */
+    color: white; /* Text color */
+    text-align: left; /* Aligns text in the center */
+    padding: 20px; /* Adds padding around the text */
+}
+/*text formating for our caption*/
+#caption{
+    margin-left: 880px;
+}
+
+#caption .whitetext{
+    color:azure;
+    
+}
+#caption .orangetext{
+    color:orange;
+ 
+}
+.myinfo{
+    color:azure;
+    font-size: x-large;
+    padding-top: 50px;
+    text-align: left;
+    position: absolute; /* Positions the text relative to the container */
+  top: 50%; /* Adjust vertical positioning */
+  left: 50%; /* Adjust horizontal positioning */
+}
+/*formating for our social links icons*/
+.icons {
+    display: flex;
+  }
+  
+  .icon-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  
+  .icons i{
+    color:orange;
+    font-size: 40px; /* Change the size as needed */
+    list-style: none;
+    padding: 0;
+    transform: translate(570px, -30px);
+    margin-top: -1000px; 
+    margin-left: 20px;
+}
+#footernotes{
+    position: absolute;
+    color: azure;
+    width: 60%;
+    font-size:x-large;
+    margin-top: 30px;
+    margin-left: 30px;
+   
+}
+#footerimage{
+    padding-left: 870px;
+    margin-top: 70px;
+    margin-right:0px;
+}
+#footerimage2{
+    width: 1000px;
+ margin-top: 30px;
+ transform: translate(0px, -114%);
+ z-index: -1;
+}
