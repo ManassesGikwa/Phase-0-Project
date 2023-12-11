@@ -13,6 +13,12 @@ nav.navbar{
     box-sizing:content-box;
     content:orange;
   }
+
+  .navbar a:hover{
+    cursor: pointer;
+    color:orange;
+    
+  }
   /*body styling*/
 body{
     background-color:black;
@@ -128,6 +134,7 @@ body.myinfo{
 #footerimage2{
     width: 1000px;
  margin-top: 30px;
+ transition-duration: 3s;
  transform: translate(0px, -114%);
  z-index: -1;
 }
